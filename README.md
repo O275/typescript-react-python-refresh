@@ -4,7 +4,7 @@ This repository provides a structured plan to quickly regain proficiency in **Ty
 
 ## 📁 Folder Structure
 ```
-📦 full-stack-refresh-plan
+📦 typescript-react-python-refresh
 ├── 📂 week1-javascript-typescript
 │   ├── 📄 README.md  # Overview of JS & TS exercises
 │   ├── 📂 scripts  # Small coding exercises
@@ -37,7 +37,7 @@ This repository provides a structured plan to quickly regain proficiency in **Ty
 ## 📌 Setup Instructions
 1. Clone the repo:
    ```sh
-   git clone https://github.com/YOUR_USERNAME/full-stack-refresh-plan.git
+   git clone https://github.com/YOUR_USERNAME/typescript-react-python-refresh.git
    ```
 2. Navigate to a specific week's folder and install dependencies:
    ```sh
