@@ -1,3 +1,9 @@
+# typescript-react-python-refresh
+
+This repository provides a structured plan to quickly regain proficiency in **TypeScript, JavaScript, React, and Python** through hands-on coding, small achievable scripts, and projects.
+
+## Project Structure
+
 ## JavaScript
 
 - `fetch-users.js`: Script to fetch users.
