@@ -4,15 +4,43 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "mocha -r ts-node/register './**/*.test.ts'",
+    "prepare": "",
+    "preinstall": "",
+    "prepublishOnly": "",
+    "postpublish": "",
+    "serve": "",
+    "poststop": "",
+    "prerestart": "",
+    "postuninstall": "",
+    "postpack": "",
+    "uninstall": "",
+    "postversion": "",
+    "posttest": "",
+    "preuninstall": "",
+    "postinstall": "",
+    "prestop": "",
+    "restart": "",
+    "prepublish": "",
+    "start": "",
+    "version": "",
+    "lint": "",
+    "prestart": "",
+    "pretest": "",
+    "preversion": "",
+    "stop": "",
+    "install": "",
+    "publish": "",
+    "postrestart": "",
+    "prepack": "",
+    "poststart": ""
   },
   "dependencies": {
     "axios": "^1.8.4"
   },
   "devDependencies": {
-    "@types/jest": "^29.5.14",
-    "jest": "^29.7.0",
-    "ts-jest": "^29.3.1",
-    "ts-node": "^10.9.1"
+    "ts-node": "^10.9.1",
+    "mocha": "^10.2.0",
+    "chai": "^4.3.7"
   }
 }

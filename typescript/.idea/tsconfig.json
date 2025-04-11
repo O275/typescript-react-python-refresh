@@ -6,7 +6,7 @@
     "esModuleInterop": true,
     "outDir": "./dist",
     "rootDir": "./",
-    "types": ["jest", "node"]
+    "types": ["mocha", "node"]
   },
   "include": ["src/**/*.ts", "tests/**/*.ts"],
   "exclude": ["node_modules", "dist"]

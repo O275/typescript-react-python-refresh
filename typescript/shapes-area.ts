@@ -8,7 +8,9 @@ export class Circle implements Shape {
       throw new Error("Radius cannot be negative");
     }
   }
-
+  getRadius(): number {
+    return this.radius;
+  }
   getArea(): number {
     return Math.PI * this.radius ** 2;
   }
@@ -43,7 +45,7 @@ export function logShapeAreas(shapes: { shape: Shape; name: string }[]): void {
     try {
       const area = shape.getArea();
       if (shape instanceof Circle) {
-        console.log(`${name} - Radius: ${shape['radius']}, Area: ${area}`);
+        console.log(`${name} - Radius: ${shape.getRadius()}, Area: ${area}`);
       } else {
         console.log(`${name} Area: ${area}`);
       }
